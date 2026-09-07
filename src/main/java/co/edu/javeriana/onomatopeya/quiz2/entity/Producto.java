@@ -25,7 +25,7 @@ public class Producto {
     private String categoria;
 
     @Column(nullable = false, precision = 12, scale = 2)
-    private int precio;
+    private Bigdecimal precio;
 
     @Column(nullable = false)
     private Boolean activo;
